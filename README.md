@@ -2,6 +2,10 @@
 
 Sends an email alert to the site admin whenever a user logs into the WordPress dashboard. Configurable notification email, role filtering, and an option to notify on all logins regardless of role.
 
+[![Try it live in WordPress Playground](https://img.shields.io/badge/Try%20it%20live-WordPress%20Playground-3858e9?logo=wordpress&logoColor=white&style=for-the-badge)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/jdyach/admin-login-notifier/main/_playground/blueprint.json)
+
+The live demo runs a real WordPress site in your browser with this plugin, the [Fieldnote](https://github.com/jdyach/fieldnote) block theme and sample content. It opens the plugin's settings page with a demo mailbox showing the alert email the plugin sent when you logged in (Playground can't send real email, so a demo-only helper captures it). Nothing to install.
+
 ## Features
 - Hooks into `wp_login` to fire on every successful login
 - Email includes username, role(s), IP address, timestamp, and admin URL
