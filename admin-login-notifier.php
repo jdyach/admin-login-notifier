@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/jdyach/admin-login-notifier
  * Description:       Sends an email alert to the site admin whenever a user logs into the WordPress dashboard, including timestamp, username, and IP address.
  * Version:           1.0.0
- * Author:            Jacqui Dyachenko
+ * Author:            Jacqui Dyach
  * Author URI:        https://jacquid.com
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
